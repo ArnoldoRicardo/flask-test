@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+        <title>
+            {% block title %}TODO's API |{% endblock %}
+        </title>
+    <link rel="icon" type="imagen/png" href="{{ url_for('static', filename='images/ar.png') }}">
+</head>
+<body>
+    {% include 'navbar.html' %}
+
+    {% block body %}
+    {% endblock %}
+</body>
+</html>
